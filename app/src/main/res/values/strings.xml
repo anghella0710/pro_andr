@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name_product">Tên sản phẩm </string>
+    <string name="brand_product">Thương hiệu </string>
+    <string name="vol_product">Dung tích thực </string>
+    <string name="img_url_product">Chèn url ảnh tại đây</string>
+    <string name="capital_price_product">giá nhập</string>
+    <string name="price_product">giá bán</string>
+    <string name="amount">Số lượng đang có</string>
+    <string name="product_name_order">Mã hàng hóa</string>
+    <string name="customer_name_order">Tên khách hàng</string>
+    <string name="customer_phone_order">Số điện thoại khác đặt hàng</string>
+    <string name="customer_address_order">Địa chỉ khách hàng đặt hàng</string>
+    <string name="status_order">Trạng thái đơn hàng</string>
+    <string name="amount_order">Số lượng đặt</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtOrderIdProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_name_order"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtOrderNameCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_name_order"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/edtOrderPhoneCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_phone_order"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/edtOrderAddressCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/customer_address_order"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/edtOrderStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/status_order"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/edtOrderAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount_order"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnAddOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Order"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnUpdateOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Order"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnDeleteOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Order"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewOrders"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
